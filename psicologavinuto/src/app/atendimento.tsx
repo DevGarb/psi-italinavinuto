@@ -8,8 +8,8 @@ export default function Example() {
     return (
         <div className="bg-[#E6E2DD] py-16">
             <div className="container mx-auto px-4">
-                <h2 className="text-3xl mb-8  flex justify-center pr-60 pl-60 text-center">Atendimento Individual </h2>
-                <h2>ou Consultoria em Saúde Mental Corporativa</h2>
+                <h2 className="text-3xl mb-8  flex justify-center pr-60 pl-60 text-center">Atendimento Individual ou</h2>
+                <h2 className="text-3xl mb-8  flex justify-center pr-60 pl-60 text-center">Consultoria em Saúde Mental Corporativa</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div className="bg-[#FFB699] rounded-lg shadow-lg p-8">
                         <div className="relative overflow-hidden">

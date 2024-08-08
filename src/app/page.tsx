@@ -26,7 +26,7 @@ export default function Home() {
 
         <main className="w-full mb-auto">
           <div className="flex h-[45rem] justify-between max-md:flex-wrap">
-            <div className="w-[40rem] items-center content-center max-sm:pl-0">
+            <div className="w-[40rem] items-center content-center max-sm:pl-1 max-md:pt-10">
               <h1 className="text-black font-medium text-4xl tracking-widest font-serif">Ajudo pessoas e negócios a construir uma jornada com mais saúde mental e emocional</h1>
               <div className="pt-10">
                 <div>

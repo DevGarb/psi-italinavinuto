@@ -2,8 +2,10 @@ import Image from "next/image";
 
 import logoidalina from '../assets/img/logoidalina.png'
 import Group from '../assets/img/Group.png'
+import Vector from '../assets/img/Vector.png'
 
 import Atendimento from "./atendimento"
+import Card from './card'
 import Footer from "./footer"
 
 
@@ -38,9 +40,16 @@ export default function Home() {
                   </button>
                 </div>
               </div>
-              <div className="text-black pt-10">
+              <div className="flex gap-4 pt-10">
+                <div><Image src={Vector} alt="" /></div>
                 <p>Terapia Individual e em Grupo</p>
+              </div>
+              <div className="flex gap-4 pt-2">
+                <div><Image src={Vector} alt="" /></div>
                 <p>Diagnóstico Empresarial</p>
+              </div>
+              <div className="flex gap-4 pt-2">
+                <div><Image src={Vector} alt="" /></div>
                 <p>Metas e Indicadores</p>
               </div>
             </div>
@@ -55,6 +64,7 @@ export default function Home() {
         </main>
       </div>
       <Atendimento />
+      <Card />
       <Footer />
     </div >
   );

@@ -4,8 +4,8 @@ import "./globals.css";
 
 
 export const metadata: Metadata = {
-  title: "Psicóloga Italina Vinuto",
-  description: "Pisicóloga em Fortaleza, Ceará. Italina Vinuto",
+  title: "Psicóloga Idalina Vinuto",
+  description: "Pisicóloga em Fortaleza, Ceará. Idalina Vinuto",
 };
 
 export default function RootLayout({

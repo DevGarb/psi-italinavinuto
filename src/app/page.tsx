@@ -12,7 +12,7 @@ import Footer from "./footer";
 export default function Home() {
   return (
     <div className="mx-auto">
-      <div className="bg-[#241B0F]">
+      <div className="bg-[#241B0F] px-6">
         <header className="font-mono text-sm py-7 container">
           <a href="#">
             <Image

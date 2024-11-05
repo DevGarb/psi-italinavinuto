@@ -1,45 +1,92 @@
-import React from 'react';
 import Image from 'next/image';
+import { FC } from 'react';
+import { FaHeart, FaClipboardList } from 'react-icons/fa';
+import "@fontsource/playfair-display"
 
-import Consultorio from '../assets/img/consultoriopsicologia.png'
-import Wpp from '../assets/img/Wpp.png'
+import Consultorio from '../assets/img/maoqueixo.png'
+import Grupo from '../assets/img/grupo.png'
+import IdalinaMic from '../assets/img/idalinamic1.png'
 
 export default function Example() {
     return (
-        <div className="bg-[#E6E2DD] py-16">
+        <div className="bg-[#F9F6F1] py-16 border-t-2 border-gray-300">
             <div className="container mx-auto px-4">
-                <h2 className="text-3xl mb-8  flex justify-center text-center">Atendimento Individual ou</h2>
-                <h2 className="text-3xl mb-8  flex justify-center text-center">Consultoria em Saúde Mental Corporativa</h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div className="bg-[#FFB699] rounded-lg shadow-lg p-8">
-                        <div className="relative overflow-hidden">
-                            <Image className="object-cover w-full h-full" src={Consultorio} alt="Product"
-                                width={300}
-                                height={300} />
+                {/* Título da seção */}
+                <h1 className="font-playfair text-3xl md:text-4xl text-center font-bold mb-4">
+                    Atendimento Clínico e
+                    <p>Consultoria em Saúde Mental Corporativa</p>
+                </h1>
+                <p className="text-center text-gray-500 mb-12">
+                    Saiba abaixo como funciona
+                </p>
 
+                {/* Card de Atendimento Clínico */}
+                <div className="grid grid-cols-1 gap-8 m-10 mx-auto shadow-2xl rounded-lg overflow-hidden bg-[#F0E4DB] w-full">
+                    <div className="p-16 flex flex-col md:flex-row items-center gap-20 ">
+
+                        {/* Texto e ícones */}
+                        <div className="flex flex-col">
+                            <h1 className="text-3xl font-bold mb-4 font-playfair">
+                                Atendimento Clínico
+                            </h1>
+                            <p className="text-gray-700 mb-4">
+                                Especialista pela Unichristus, com experiência há mais de 6 anos em psicoterapia para adultos e idosos (18 a 75 anos), ofereço tratamentos especializados para Burnout, Depressão, Ansiedade e Estresse. Atendo no formato online e presencial.
+                            </p>
+                            <p className="text-gray-700 mb-4">
+                                A TCC tem como base as evidências, focando na identificação e modificação de pensamentos e comportamentos disfuncionais. Adapto as técnicas da TCC para atender a cada necessidade específica, criando um espaço seguro e acolhedor para explorar pensamentos e emoções com confiança.
+                            </p>
+                            <p className="font-semibold flex items-center gap-2 text-orange-600">
+                                <FaHeart className="text-red-500" />
+                                Vamos dar o primeiro passo juntos?
+                            </p>
                         </div>
-                        <h3 className="text-xl font-bold mt-4">Psicóloga Idalina Vinuto: Atendimento Individual</h3>
-                        <p className="text-sm mt-2">Como Psicóloga com mais de 10 anos de experiência atendendo adultos de 18 a 75 anos, sou Especialista em Burnout, auxilío no tratamento de depressão, ansiedade e estresse pós-traumático.</p>
-                        <p className="text-sm mt-2"> Através da terapia trabalho para melhorar a relação entre pensamentos, emoções e comportamentos ajudando você a trilhar uma vida mais saudável e feliz.</p>
-                        <div className="flex items-center justify-between mt-4">
-                            <span className="font-bold text-lg flex gap-3"><Image className='object-contain' src={Wpp} alt='' />Vamos dar o primeiro passo</span>
+                        {/* Imagem */}
+                        <div className="flex-shrink-0 bg-[#FFB699] rounded-md px-2 ">
+                            <Image
+                                src={Consultorio}
+                                alt="Psicóloga Idalina Vinuto"
+                                className="rounded-lg object-cover "
+                            />
                         </div>
+
                     </div>
-                    <div className="bg-[#FF7733] rounded-lg shadow-lg p-8">
-                        <div className="relative overflow-hidden">
-                            <Image className="object-cover w-full h-full" src={Consultorio} alt="Product"
-                                width={300}
-                                height={300} />
+                </div>
+            </div>
+
+            <div className="container mx-auto px-4">
+                {/* Card de Atendimento Clínico */}
+                <div className="grid grid-cols-1 gap-8 m-10 mx-auto shadow-2xl rounded-lg overflow-hidden bg-[#E2D7CF] w-full">
+                    <div className="p-16 flex flex-col md:flex-row items-center gap-20 ">
+                        {/* Imagem */}
+                        <div className="flex-shrink-0 rounded-md">
+                            <div>
+                                <Image
+                                    src={IdalinaMic}
+                                    alt="Psicóloga Idalina Vinuto"
+                                    className="rounded-lg object-cover"
+                                />
+                            </div>
                         </div>
-                        <h3 className="text-xl font-bold mt-4">Psicóloga Idalina Vinuto: Atendimento Individual</h3>
-                        <p className="text-sm mt-2">Como Psicóloga com mais de 10 anos de experiência atendendo adultos de 18 a 75 anos, sou Especialista em Burnout, auxilío no tratamento de depressão, ansiedade e estresse pós-traumático.</p>
-                        <p className="text-sm mt-2"> Através da terapia trabalho para melhorar a relação entre pensamentos, emoções e comportamentos ajudando você a trilhar uma vida mais saudável e feliz.</p>
-                        <div className="flex items-center justify-between mt-4">
-                            <span className="font-bold text-lg">Vamos dar o primeiro passo</span>
+                        {/* Texto e ícones */}
+                        <div className="flex flex-col">
+                            <h1 className="text-3xl font-bold mb-4 font-playfair">
+                                Consultoria em Saúde Mental Corporativa
+                            </h1>
+                            <p className="text-gray-700 mb-4 font-bold">
+                                Possuo 14 anos de experiência atuando em Gestão de Pessoas e MBA em Gestão Estratégica de RH pela Ibmec.
+                            </p>
+                            <p className="text-gray-700 mb-4">
+                                Na minha trajetória profissional, fui responsável por implantar a área de Pessoas e Cultura em diversos segmentos, incluindo tecnologia, fintechs e varejo. Sempre com o objetivo de criar ambientes de trabalho saudáveis e produtivos, transformei cada desafio em uma oportunidade de crescimento e inovação.
+                            </p>
+                            <p className="font-semibold flex items-center gap-2 text-orange-600">
+                                <FaHeart className="text-red-500" />
+                                Vamos dar o primeiro passo juntos?
+                            </p>
                         </div>
+
                     </div>
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};

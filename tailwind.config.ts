@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      playfair: ['"Playfair Display"', 'serif'],
+    },
   },
   plugins: [require("tailgrids/plugin")],
 };

@@ -1,4 +1,6 @@
 import React from "react";
+import "@fontsource/playfair-display"
+
 
 const Blog = () => {
     return (
@@ -8,11 +10,11 @@ const Blog = () => {
                     <div className="-mx-4 flex flex-wrap">
                         <div className="px-2">
                             <div className="mx-auto mb-[60px] max-w-[510px] lg:mb-20">
-                                <h2 className="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[30px]">
-                                    Quais soluções estratégicas entregamos para sua empresa
+                                <h2 className="mb-4 text-3xl font-bold font-playfair text-dark sm:text-4xl md:text-[30px]">
+                                    Soluções estratégicas que entregamos para sua empresa
                                 </h2>
-                                <p className="text-base text-yellow-500 ">
-                                    Ajudamos seus colaboradores de forma personalizada
+                                <p className="font-semibold text-[#945D38] ">
+                                    Criamos de forma personalizada com base na cultura e no negócio
                                 </p>
                             </div>
                         </div>
@@ -23,25 +25,25 @@ const Blog = () => {
                             date="28 Ago, 2024"
                             CardTitle="Palestras para Empresas"
                             CardDescription="Educamos sua empresa sobre Saúde Mental abordando temas relevantes para o seu negócio"
-                            image="https://i.ibb.co/Cnwd4q6/image-01.jpg"
+                            image="https://i.ibb.co/xHxZpWY/Group-5.png"
                         />
                         <BlogCard
                             date="28 Ago, 2024"
                             CardTitle="Treinamento e Workshop de Liderança e Gestão"
                             CardDescription="Capacitamos líderes que facilitem a saúde mental promovendo uma cultura de apoio, empatia e bem-estar."
-                            image="https://i.ibb.co/Y23YC07/image-02.jpg"
+                            image="https://i.ibb.co/XVZkBsD/Group-6.png"
                         />
                         <BlogCard
                             date="28 Ago, 2024"
                             CardTitle="Desenvolvimento de Políticas de Bem-Estar"
-                            CardDescription="Criamos programas para equilibrar vida profissional e pessoal, promovendo satisfação e retenção de talentos."
-                            image="https://i.ibb.co/7jdcnwn/image-03.jpg"
+                            CardDescription="Criamos programas para equilibrar vida profissional e pessoal, com políticas alinhadas à NR1 e ao Certificado de Empresa Promotora de Saúde Mental."
+                            image="https://i.ibb.co/cwT2n5j/Group-7.png"
                         />
                         <BlogCard
                             date="28 Ago, 2024"
                             CardTitle="Mentoria para profissionais"
                             CardDescription="Desenvolvimento profissional com foco em competências comportamentais cruciais em suas carreiras."
-                            image="https://i.ibb.co/7jdcnwn/image-03.jpg"
+                            image="https://i.ibb.co/dGQ0YPm/Group-8.png"
                         />
                     </div>
                 </div>
@@ -61,11 +63,11 @@ const BlogCard: React.FC<{ image: string; date: string; CardTitle: string; CardD
                         <img src={image} alt="" className="w-full" />
                     </div>
                     <div>
-                        {date && (
+                        {/* {date && (
                             <span className="mb-5 inline-block rounded bg-primary px-4 py-1 text-center text-xs font-semibold leading-loose text-white">
                                 {date}
                             </span>
-                        )}
+                        )} */}
                         <h3>
                             <a
                                 href="/#"

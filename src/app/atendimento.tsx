@@ -56,7 +56,7 @@ export default function Example() {
             <div className="container mx-auto px-4">
                 {/* Card de Atendimento Clínico */}
                 <div className="grid grid-cols-1 gap-8 m-10 mx-auto shadow-2xl rounded-lg overflow-hidden bg-[#E2D7CF] w-full">
-                    <div className="p-16 flex flex-col md:flex-row items-center gap-20 ">
+                    <div className="p-16 flex flex-col lg:flex-row items-center gap-20 ">
                         {/* Imagem */}
                         <div className="flex-shrink-0 rounded-md">
                             <div>

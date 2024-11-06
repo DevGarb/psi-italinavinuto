@@ -3,6 +3,7 @@ import Image from 'next/image'
 import "@fontsource/playfair-display"
 
 import bustoidalina from '../assets/img/bustoidalina.png'
+import path from 'path';
 
 
 export default function aboutme() {

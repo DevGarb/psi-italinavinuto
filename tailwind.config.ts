@@ -7,7 +7,13 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        beige: '#E9DDD1',
+        'beige-light': '#F5EFE8',
+        brown: '#A97155',
+      },
+    },
     fontFamily: {
       playfair: ['"Playfair Display"', 'serif'],
     },

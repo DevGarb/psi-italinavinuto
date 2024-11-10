@@ -9,10 +9,10 @@ const Blog = () => {
                 <div className="container">
                     <div className="-mx-4 flex flex-wrap">
                         <div className="px-2">
-                            <div className="mx-auto mb-[60px] max-w-[510px] lg:mb-20">
-                                <h2 className="mb-4 text-3xl font-bold font-playfair text-dark sm:text-4xl md:text-[30px]">
+                            <div className="mx-auto mb-[60px] max-w-[710px] lg:mb-20">
+                                <p className="mb-4 text-5xl font-bold font-playfair text-dark">
                                     Soluções estratégicas que entregamos para sua empresa
-                                </h2>
+                                </p>
                                 <p className="font-semibold text-[#945D38] ">
                                     Criamos de forma personalizada com base na cultura e no negócio
                                 </p>
@@ -71,7 +71,7 @@ const BlogCard: React.FC<{ image: string; date: string; CardTitle: string; CardD
                         <h3>
                             <a
                                 href="/#"
-                                className="mb-4 inline-block text-xl font-semibold text-dark hover:text-primary sm:text-2xl lg:text-xl xl:text-2xl"
+                                className="mb-4 inline-block text-xl font-semibold text-dark hover:text-[#241B0F] sm:text-2xl lg:text-xl xl:text-2xl"
                             >
                                 {CardTitle}
                             </a>

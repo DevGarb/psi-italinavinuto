@@ -1,15 +1,16 @@
 import Image from 'next/image';
 import { FC } from 'react';
-import { FaHeart, FaClipboardList } from 'react-icons/fa';
+import { FaHeart, FaClipboardList, FaWhatsapp } from 'react-icons/fa';
 import "@fontsource/playfair-display"
 
 import Consultorio from '../assets/img/maoqueixo.png'
 import Grupo from '../assets/img/grupo.png'
 import IdalinaMic from '../assets/img/idalinamic1.png'
+import { FaArrowDownLong } from 'react-icons/fa6';
 
 export default function Example() {
     return (
-        <div className="bg-[#F9F6F1] py-16 border-t-2 border-gray-300">
+        <div className="bg-[#F9F6F1] py-16">
             <div className="container mx-auto px-4">
                 {/* Título da seção */}
                 <h1 className="font-playfair text-3xl md:text-4xl text-center font-bold mb-4">
@@ -35,8 +36,8 @@ export default function Example() {
                             <p className="text-gray-700 mb-4">
                                 A TCC tem como base as evidências, focando na identificação e modificação de pensamentos e comportamentos disfuncionais. Adapto as técnicas da TCC para atender a cada necessidade específica, criando um espaço seguro e acolhedor para explorar pensamentos e emoções com confiança.
                             </p>
-                            <p className="font-semibold flex items-center gap-2 text-orange-600">
-                                <FaHeart className="text-red-500" />
+                            <p className="font-semibold flex items-center gap-2 text-[#945D38]">
+                                <FaWhatsapp className="text-[#945D38]" />
                                 Vamos dar o primeiro passo juntos?
                             </p>
                         </div>
@@ -78,8 +79,8 @@ export default function Example() {
                             <p className="text-gray-700 mb-4">
                                 Na minha trajetória profissional, fui responsável por implantar a área de Pessoas e Cultura em diversos segmentos, incluindo tecnologia, fintechs e varejo. Sempre com o objetivo de criar ambientes de trabalho saudáveis e produtivos, transformei cada desafio em uma oportunidade de crescimento e inovação.
                             </p>
-                            <p className="font-semibold flex items-center gap-2 text-orange-600">
-                                <FaHeart className="text-red-500" />
+                            <p className="font-semibold flex items-center gap-2 text-[#945D38]">
+                                <FaArrowDownLong className="text-[#945D38]" />
                                 Vamos dar o primeiro passo juntos?
                             </p>
                         </div>

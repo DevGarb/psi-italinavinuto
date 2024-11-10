@@ -16,7 +16,7 @@ const FAQSection: React.FC = () => {
     ];
 
     return (
-        <section className="container w-full py-24 max-w-5xl mx-auto flex flex-col md:flex-row gap-12">
+        <section className="container w-full py-40 max-w-5xl mx-auto flex flex-col md:flex-row gap-12">
             {/* Título e Subtítulo */}
             <div className="flex flex-col text-left basis-1/2">
                 <p className="sm:text-4xl text-3xl font-extrabold mb-8 text-base-content">Dúvidas Frequentes</p>

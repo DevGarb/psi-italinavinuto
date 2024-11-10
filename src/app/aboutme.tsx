@@ -8,6 +8,7 @@ import { BsPeopleFill } from 'react-icons/bs';
 import { IoPersonSharp } from 'react-icons/io5';
 
 
+
 export default function aboutme() {
     return (
         <div className="container mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-3 md:grid-rows-1 gap-8 items-center">
@@ -28,7 +29,7 @@ export default function aboutme() {
                         </svg>
                     </div>
                     <div>
-                        <p className="text-xl font-bold">6 anos</p>
+                        <p className="text-3xl font-bold">6 anos</p>
                         <p className="text-[#999999]">de Experiência Clínica</p>
                     </div>
                 </div>

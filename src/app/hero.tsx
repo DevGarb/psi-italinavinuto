@@ -11,25 +11,45 @@ export default function hero() {
     return (
         <div className="mx-auto">
             <div className="bg-[#241B0F]">
-                <main className="container justify-center" >
-                    <div className='pt-6'>
+                <main className="container justify-center flex flex-col pt-10">
+                    <div className="flex flex-col md:flex-row-reverse">
+                        <div className='max-md:hidden'>
+                            <Image
+                                alt='Idalina Vinuto'
+                                src={photoidalina}
+                                className='mt-20' />
+                        </div>
+                        <div className="flex-1">
+                            <div className='max-sm:text-center'>
+                                <Image
+                                    className="rounded-lg w-auto h-16 mb-24"
+                                    src={logoidalina}
+                                    priority={true}
+                                    alt="Logo"
+                                />
+                                <p className="text-white font-playfair font-bold text-4xl">
+                                    Ensino pessoas e negócios a construir uma jornada com&nbsp;
+                                </p>
+                                {/* <p className="text-white font-playfair font-bold text-4xl">
+                                    a construir uma jornada com&nbsp;
+                                </p> */}
+                                <p className="text-[#F1CA52] font-playfair font-bold text-4xl">
+                                    mais saúde mental e bem-estar
+                                </p>
+                            </div>
 
-                        <Image
-                            className="rounded-lg w-auto h-16 mb-20"
-                            src={logoidalina}
-                            priority={true}
-                            alt="Logo"
-                        />
+                            {/* IMAGEM MOBILE */}
+                            <div className='md:hidden pt-8'>
+                                <Image
+                                    alt="Idalina Vinuto"
+                                    src={photoidalina}
+                                    priority={true}/>
+                            </div>
+                            {/* IMAGEM MOBILE */}
 
-                    </div>
-                    <div className="flex flex-col md:flex-row md:gap-8 max-w-screen-xl">
-                        <div className="flex-1 md:max-w-[40rem]">
-                            <h1 className="text-white font-playfair font-medium text-2xl md:text-4xl tracking-widest font-serif">
-                                Ensino pessoas e negócios a construir uma jornada com mais saúde mental e bem-estar
-                            </h1>
-                            <div className="pt-10 mb-10">
+                            <div className="sm:py-8 pb-10">
                                 <a
-                                    href="https://wa.me/5585985302993?text=Oi,%20Agende%20agora%20sua%20consulta."
+                                    href="https://wa.me/5585999173647?text=Oi,%20Agende%20agora%20sua%20consulta."
                                     target="_blank"
                                     className="text-black bg-[#F1CA52] rounded-lg px-5 py-2.5 text-center inline-flex items-center justify-between transition duration-300 hover:scale-110 w-full sm:w-72 text-md font-bold"
                                 >
@@ -43,32 +63,15 @@ export default function hero() {
 
                                 </a>
                             </div>
-                            <div className="flex flex-col gap-4 pt-10 text-white">
+
+                            <div className="flex flex-col gap-4 mb-8 text-white">
                                 {["Terapia Individual", "Terapia Cognitivo-Comportamental", "Diagnóstico Empresarial", "Metas e Indicadores"].map((item, index) => (
-                                    <div key={index} className="flex items-center gap-4">
+                                    <div key={index} className="flex items-center gap-4 max-sm:justify-center">
                                         <Image src={Vector} className="w-4 h-4" alt="" />
                                         <p>{item}</p>
                                     </div>
                                 ))}
                             </div>
-                        </div>
-
-                        <div className="relative flex-shrink-0 mt-8 md:mt-0">
-                            {/* FIX BACKGROUND */}
-                            <Image
-                                className="absolute inset-0 object-cover w-full h-full"
-                                src={backgroundphoto}
-                                priority={true}
-                                alt="Background"
-                            />
-                            {/* FIX BACKGROUND */}
-                            <Image
-                                className="relative z-10"
-                                src={photoidalina}
-                                priority={true}
-                                quality={100}
-                                alt="Photo Idalina"
-                            />
                         </div>
                     </div>
                 </main>
@@ -76,3 +79,10 @@ export default function hero() {
         </div>
     )
 }
+{/* <Image
+    className="inset-0 object-cover"
+    src={photoidalina}
+    priority={true}
+    quality={100}
+    alt="Photo Idalina"
+/> */}

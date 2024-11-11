@@ -12,35 +12,57 @@ import { IoPersonSharp } from 'react-icons/io5';
 export default function aboutme() {
     return (
         <div className="container mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-3 md:grid-rows-1 gap-8 items-center">
-            <h1 className="font-playfair text-4xl col-span-1 md:col-span-3 justify-center flex text-center mb-16">
+            <h1 className="max-sm:hidden font-playfair text-4xl col-span-1 md:col-span-3 justify-center flex text-center sm:mb-8">
                 <span>
-                    Olá, sou <span className="font-bold">Idalina Vinuto </span> e conto
-                    <p>&nbsp;abaixo um pouco da minha trajetória</p>
+                    Olá, sou <span className="font-bold">Idalina Vinuto </span>e conto
+                    <br />abaixo um pouco da minha trajetória
+                </span>
+            </h1>
+            <h1 className="sm:hidden font-playfair text-4xl col-span-1 md:col-span-3 justify-center flex text-center sm:mb-8">
+                <span>
+                    Olá, sou <span className="font-bold">Idalina Vinuto </span>e conto
+                    abaixo um pouco da minha trajetória
                 </span>
             </h1>
             {/* Coluna dos ícones de experiência */}
-            <div className="flex flex-col items-center md:justify-center md:items-start space-y-6 rounded border-r border-gray-300 h-full">
+            <div className="flex flex-col items-center md:items-start gap-4 rounded md:border-r border-gray-300 h-full">
                 {/* Ícone de Experiência Clínica */}
-                <div className="flex items-center space-x-3">
-                    <div className="bg-gray-100 p-3 rounded">
+                <div className="max-sm:hidden flex items-center justify-center space-x-3">
+                    <div className="bg-gray-100  rounded flex items-center justify-center">
                         {/* Ícone */}
-                        <svg className="w-11 h-auto text-[#945D38]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <IoPersonSharp />
-                        </svg>
+                        <IoPersonSharp className="w-9 m-2.5 h-auto text-[#945D38]" />
                     </div>
                     <div>
                         <p className="text-3xl font-bold">6 anos</p>
                         <p className="text-[#999999]">de Experiência Clínica</p>
                     </div>
                 </div>
-
-                {/* Ícone de Gestão de Pessoas */}
-                <div className="flex items-center space-x-3">
-                    <div className="bg-gray-100 p-3 rounded">
+                {/* Ícone de Experiência Clínica MOBILE */}
+                <div className="md:hidden flex-row flex items-center justify-center space-x-3">
+                    <div className="bg-gray-100 rounded ">
                         {/* Ícone */}
-                        <svg className="w-12 h-auto text-[#945D38]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <BsPeopleFill />
-                        </svg>
+                        <IoPersonSharp className="max-sm:w-4 w-9 m-1.5 h-auto text-[#945D38]" />
+                    </div>
+                    <div className="text-sm font-bold">
+                        6 anos <a className="text-[#999999]">de Experiência Clínica</a>
+                    </div>
+                </div>
+
+                {/* Ícone de Gestão de Pessoas MOBILE*/}
+                <div className="md:hidden flex-row flex items-center justify-center space-x-3">
+                    <div className="bg-gray-100  rounded">
+                        {/* Ícone */}
+                        <BsPeopleFill className="max-sm:w-5 w-10 m-1.5 h-auto text-[#945D38]" />
+                    </div>
+                    <div className="text-sm font-bold">
+                        14 anos <a className="text-[#999999]">na área de Gestão de Pessoas</a>
+                    </div>
+                </div>
+                {/* Ícone de Gestão de Pessoas */}
+                <div className="max-sm:hidden flex items-center justify-center space-x-3">
+                    <div className="bg-gray-100  rounded">
+                        {/* Ícone */}
+                        <BsPeopleFill className="w-10 m-2 h-auto text-[#945D38]" />
                     </div>
                     <div>
                         <p className="text-3xl font-bold">14 anos</p>
@@ -50,7 +72,7 @@ export default function aboutme() {
             </div>
 
             {/* Coluna da descrição e informações adicionais */}
-            <div className="text-center md:text-left space-y-6">
+            <div className="text-center md:text-left space-y-10 xl:min-w-[600px]">
 
                 {/* Descrição da experiência */}
                 <p className="text-[#999999]">
@@ -63,20 +85,33 @@ export default function aboutme() {
                     de Pessoas, desenvolvimento de lideranças e criação de ambientes de trabalho
                     saudáveis.
                 </p>
-                <h5 className='pt-5'>
+
+                <div className="sm:hidden md:h-full flex items-center gap-6 justify-center md:justify-end flex-row-reverse">
+                    <h5>
+                        <p className="font-bold">Idalina Vinuto</p>
+                        <p className="text-gray-600">CRP 11/07872</p>
+                    </h5>
+                    <Image
+                        className="rounded-lg w-auto sm:h-auto md:h-1/4 lg:h-2/5 xl:h-2/4"
+                        src={bustoidalina} // Substitua pelo caminho correto da imagem
+                        alt="Foto de Idalina Vinuto"
+                    />
+                </div>
+                <h5 className="hidden md:block items-center">
                     <p className="font-bold">Idalina Vinuto</p>
                     <p className="text-gray-600">CRP 11/07872</p>
                 </h5>
             </div>
 
-            {/* Coluna da imagem */}
-            <div className="flex justify-center md:justify-end">
+            <div className="hidden md:flex md:h-full justify-end">
                 <Image
-                    className="rounded-lg w-48 h-auto object-cover"
+                    className="rounded-lg w-auto sm:h-auto md:h-1/4 lg:h-2/5 xl:h-2/4"
                     src={bustoidalina} // Substitua pelo caminho correto da imagem
                     alt="Foto de Idalina Vinuto"
                 />
             </div>
+
+            {/* Coluna da imagem */}
         </div>
 
     )

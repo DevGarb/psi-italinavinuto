@@ -10,10 +10,10 @@ const Blog = () => {
                     <div className="-mx-4 flex flex-wrap">
                         <div className="px-2">
                             <div className="mx-auto mb-[60px] max-w-[710px] lg:mb-20">
-                                <p className="mb-4 text-5xl font-bold font-playfair text-dark">
+                                <p className="mb-4 text-5xl font-bold font-playfair text-dark max-sm:text-center">
                                     Soluções estratégicas que entregamos para sua empresa
                                 </p>
-                                <p className="font-semibold text-[#945D38] ">
+                                <p className="font-semibold text-[#945D38] max-sm:text-center">
                                     Criamos de forma personalizada com base na cultura e no negócio
                                 </p>
                             </div>

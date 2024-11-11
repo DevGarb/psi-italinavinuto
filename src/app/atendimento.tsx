@@ -23,7 +23,7 @@ export default function Example() {
 
                 {/* Card de Atendimento Clínico */}
                 <div className="grid grid-cols-1 gap-8 m-10 mx-auto shadow-2xl rounded-lg overflow-hidden bg-[#F0E4DB] w-full">
-                    <div className="p-16 flex flex-col md:flex-row items-center gap-20 ">
+                    <div className="p-16 flex flex-col md:flex-row items-center gap-20 max-sm:gap-10 ">
 
                         {/* Texto e ícones */}
                         <div className="flex flex-col">
@@ -59,14 +59,12 @@ export default function Example() {
                 <div className="grid grid-cols-1 gap-8 m-10 mx-auto shadow-2xl rounded-lg overflow-hidden bg-[#E2D7CF] w-full">
                     <div className="p-16 flex flex-col lg:flex-row items-center gap-20 ">
                         {/* Imagem */}
-                        <div className="flex-shrink-0 rounded-md">
-                            <div>
-                                <Image
-                                    src={IdalinaMic}
-                                    alt="Psicóloga Idalina Vinuto"
-                                    className="rounded-lg object-cover"
-                                />
-                            </div>
+                        <div className="flex-shrink-0 rounded-md max-sm:hidden">
+                            <Image
+                                src={IdalinaMic}
+                                alt="Psicóloga Idalina Vinuto"
+                                className="rounded-lg object-cover"
+                            />
                         </div>
                         {/* Texto e ícones */}
                         <div className="flex flex-col">
@@ -79,7 +77,15 @@ export default function Example() {
                             <p className="text-gray-700 mb-4">
                                 Na minha trajetória profissional, fui responsável por implantar a área de Pessoas e Cultura em diversos segmentos, incluindo tecnologia, fintechs e varejo. Sempre com o objetivo de criar ambientes de trabalho saudáveis e produtivos, transformei cada desafio em uma oportunidade de crescimento e inovação.
                             </p>
-                            <p className="font-semibold flex items-center gap-2 text-[#945D38]">
+
+                            <div className="flex-shrink-0 rounded-md sm:hidden">
+                                <Image
+                                    src={IdalinaMic}
+                                    alt="Psicóloga Idalina Vinuto"
+                                    className="rounded-lg object-cover"
+                                />
+                            </div>
+                            <p className="max-sm:hidden font-semibold flex items-center gap-2 text-[#945D38]">
                                 <FaArrowDownLong className="text-[#945D38]" />
                                 Vamos dar o primeiro passo juntos?
                             </p>

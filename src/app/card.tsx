@@ -5,15 +5,18 @@ import "@fontsource/playfair-display"
 const Blog = () => {
     return (
         <>
-            <section className="bg-white pb-10 pt-20 lg:pb-20 lg:pt-[120px]">
+            <section className="max-sm:bg-white bg-[#F2F2F2] py-12">
                 <div className="container">
                     <div className="-mx-4 flex flex-wrap">
                         <div className="px-2">
-                            <div className="mx-auto mb-[60px] max-w-[710px] lg:mb-20">
-                                <p className="mb-4 text-5xl font-bold font-playfair text-dark max-sm:text-center">
-                                    Soluções estratégicas que entregamos para sua empresa
+                            <div className="mx-auto  max-w-[710px] mb-12">
+                                <p className="max-sm:hidden mb-4 text-4xl font-bold font-playfair text-dark max-sm:text-center">
+                                    Soluções estratégicas que <br />entregamos para sua empresa
                                 </p>
-                                <p className="font-semibold text-[#945D38] max-sm:text-center">
+                                <p className=" sm:hidden mb-4 text-4xl font-bold font-playfair text-dark max-sm:text-center">
+                                    Soluções estratégicas que entregamos <br />para sua empresa
+                                </p>
+                                <p className=" font-semibold text-[#945D38] max-sm:text-center">
                                     Criamos de forma personalizada com base na cultura e no negócio
                                 </p>
                             </div>
@@ -23,7 +26,7 @@ const Blog = () => {
                     <div className="-mx-4 flex flex-wrap">
                         <BlogCard
                             date="28 Ago, 2024"
-                            CardTitle="Palestras para Empresas"
+                            CardTitle="Palestras"
                             CardDescription="Educamos sua empresa sobre Saúde Mental abordando temas relevantes para o seu negócio"
                             image="https://i.ibb.co/xHxZpWY/Group-5.png"
                         />
@@ -35,7 +38,7 @@ const Blog = () => {
                         />
                         <BlogCard
                             date="28 Ago, 2024"
-                            CardTitle="Desenvolvimento de Políticas de Bem-Estar"
+                            CardTitle="Desenvolvimento de Programas de Bem-Estar"
                             CardDescription="Criamos programas para equilibrar vida profissional e pessoal, com políticas alinhadas à NR1 e ao Certificado de Empresa Promotora de Saúde Mental."
                             image="https://i.ibb.co/cwT2n5j/Group-7.png"
                         />
@@ -58,7 +61,7 @@ const BlogCard: React.FC<{ image: string; date: string; CardTitle: string; CardD
     return (
         <>
             <div className="w-full px-4 md:w-1/2 lg:w-1/4">
-                <div className="mb-10 w-full">
+                <div className="mb-8 w-full">
                     <div className="mb-8 overflow-hidden rounded">
                         <img src={image} alt="" className="w-full" />
                     </div>
@@ -70,7 +73,6 @@ const BlogCard: React.FC<{ image: string; date: string; CardTitle: string; CardD
                         )} */}
                         <h3>
                             <a
-                                href="/#"
                                 className="mb-4 inline-block text-xl font-semibold text-dark hover:text-[#241B0F] sm:text-2xl lg:text-xl xl:text-2xl"
                             >
                                 {CardTitle}

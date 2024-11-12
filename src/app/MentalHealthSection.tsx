@@ -9,11 +9,14 @@ import { BsBagPlus } from 'react-icons/bs';
 
 const MentalHealthSection: React.FC = () => {
   return (
-    <section className="container grid grid-cols-1 md:grid-cols-2 grid-rows-1 gap-8 p-8 bg-[#F2F2F2] md:bg-white">
-      <div className="col-span-2 space-y-6">
-        <div className='mb-20 col-span-1'>
-          <p className="font-playfair text-5xl font-semibold text-gray-900 pb-12 max-sm:text-center">
-            Como promovemos uma melhora <br />da saúde mental no trabalho
+    <section className="container grid grid-cols-1 md:grid-cols-2 grid-rows-1 gap-8 py-12 bg-[#F2F2F2] md:bg-white">
+      <div className="col-span-2">
+        <div className='mb-10 col-span-1'>
+          <p className="max-sm:hidden font-playfair text-4xl font-semibold text-gray-900 mb-4 max-sm:text-center">
+            Como promovemos uma melhora<br /> da saúde mental no trabalho
+          </p>
+          <p className="sm:hidden font-playfair text-3xl font-semibold text-gray-900  max-sm:text-center">
+            Como promovemos <br />uma melhora da saúde mental no trabalho
           </p>
           <p className="text-lg text-[#945D38] font-semibold max-sm:text-center">
             Transformando o dia a dia da empresa
@@ -21,7 +24,7 @@ const MentalHealthSection: React.FC = () => {
         </div>
         <div className="md:hidden flex justify-center items-center">
           <Image
-            className="rounded-lg object-cover w-full"
+            className="rounded-lg object-cover w-full mb-6"
             src={Health}
             alt="Imagem representando saúde mental no trabalho"
           />

@@ -13,29 +13,38 @@ export default function hero() {
             <div className="bg-[#241B0F]">
                 <main className="container justify-center flex flex-col pt-10">
                     <div className="flex flex-col md:flex-row-reverse">
-                        <div className='max-md:hidden'>
+                        <div className='max-md:hidden max-lg:hidden min-lg:hidden'>
                             <Image
                                 alt='Idalina Vinuto'
                                 src={photoidalina}
                                 className='mt-20' />
                         </div>
                         <div className="flex-1">
-                            <div className='max-sm:text-center'>
+                            <div className='flex max-sm:justify-center'>
                                 <Image
-                                    className="rounded-lg w-auto h-16 mb-24"
+                                    className="rounded-lg w-auto h-16 max-sm:mb-12 sm:mb-24"
                                     src={logoidalina}
                                     priority={true}
                                     alt="Logo"
                                 />
-                                <p className="text-white font-playfair font-bold text-4xl">
-                                    Ensino pessoas e negócios a construir uma jornada com&nbsp;
-                                </p>
-                                {/* <p className="text-white font-playfair font-bold text-4xl">
-                                    a construir uma jornada com&nbsp;
-                                </p> */}
-                                <p className="text-[#F1CA52] font-playfair font-bold text-4xl">
-                                    mais saúde mental e bem-estar
-                                </p>
+                            </div>
+                            <div className='max-sm:text-center'>
+                                <div className='max-sm:hidden'>
+                                    <p className="text-white font-playfair font-bold text-4xl max-sm:text-3xl">
+                                        Ensino pessoas e negócios a construir uma jornada com
+                                    </p>
+                                    <p className="text-[#F1CA52] font-playfair font-bold text-4xl max-sm:text-3xl">
+                                        mais saúde mental e bem-estar
+                                    </p>
+                                </div>
+                                <div className='sm:hidden'>
+                                    <p className=" text-white font-playfair font-bold text-4xl max-sm:text-3xl">
+                                        Ensino pessoas e negócios a construir uma jornada
+                                    </p>
+                                    <p className="text-[#F1CA52] font-playfair font-bold text-4xl max-sm:text-3xl">
+                                        com mais saúde mental e bem-estar
+                                    </p>
+                                </div>
                             </div>
 
                             {/* IMAGEM MOBILE */}
@@ -43,7 +52,7 @@ export default function hero() {
                                 <Image
                                     alt="Idalina Vinuto"
                                     src={photoidalina}
-                                    priority={true}/>
+                                    priority={true} />
                             </div>
                             {/* IMAGEM MOBILE */}
 

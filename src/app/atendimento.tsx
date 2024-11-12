@@ -10,7 +10,7 @@ import { FaArrowDownLong } from 'react-icons/fa6';
 
 export default function Example() {
     return (
-        <div className="bg-[#F9F6F1] py-16">
+        <div className="bg-[#F9F6F1] py-12">
             <div className="container mx-auto px-4">
                 {/* Título da seção */}
                 <h1 className="font-playfair text-3xl md:text-4xl text-center font-bold mb-4">
@@ -23,7 +23,7 @@ export default function Example() {
 
                 {/* Card de Atendimento Clínico */}
                 <div className="grid grid-cols-1 gap-8 m-10 mx-auto shadow-2xl rounded-lg overflow-hidden bg-[#F0E4DB] w-full">
-                    <div className="p-16 flex flex-col md:flex-row items-center gap-20 max-sm:gap-10 ">
+                    <div className="p-6 flex flex-col md:flex-row items-center gap-20 max-sm:gap-10 ">
 
                         {/* Texto e ícones */}
                         <div className="flex flex-col">
@@ -42,7 +42,7 @@ export default function Example() {
                             </p>
                         </div>
                         {/* Imagem */}
-                        <div className="flex-shrink-0 bg-[#FFB699] rounded-md px-2 ">
+                        <div className="flex-shrink-0 rounded-md px-2 ">
                             <Image
                                 src={Consultorio}
                                 alt="Psicóloga Idalina Vinuto"
@@ -57,7 +57,7 @@ export default function Example() {
             <div className="container mx-auto px-4">
                 {/* Card de Atendimento Clínico */}
                 <div className="grid grid-cols-1 gap-8 m-10 mx-auto shadow-2xl rounded-lg overflow-hidden bg-[#E2D7CF] w-full">
-                    <div className="p-16 flex flex-col lg:flex-row items-center gap-20 ">
+                    <div className="p-6 flex flex-col lg:flex-row items-center gap-20 max-sm:gap-10">
                         {/* Imagem */}
                         <div className="flex-shrink-0 rounded-md max-sm:hidden">
                             <Image
@@ -78,17 +78,17 @@ export default function Example() {
                                 Na minha trajetória profissional, fui responsável por implantar a área de Pessoas e Cultura em diversos segmentos, incluindo tecnologia, fintechs e varejo. Sempre com o objetivo de criar ambientes de trabalho saudáveis e produtivos, transformei cada desafio em uma oportunidade de crescimento e inovação.
                             </p>
 
-                            <div className="flex-shrink-0 rounded-md sm:hidden">
-                                <Image
-                                    src={IdalinaMic}
-                                    alt="Psicóloga Idalina Vinuto"
-                                    className="rounded-lg object-cover"
-                                />
-                            </div>
-                            <p className="max-sm:hidden font-semibold flex items-center gap-2 text-[#945D38]">
+                            <p className="font-semibold flex items-center gap-2 text-[#945D38]">
                                 <FaArrowDownLong className="text-[#945D38]" />
                                 Vamos dar o primeiro passo juntos?
                             </p>
+                        </div>
+                        <div className="flex-shrink-0 rounded-md sm:hidden">
+                            <Image
+                                src={IdalinaMic}
+                                alt="Psicóloga Idalina Vinuto"
+                                className="rounded-lg object-cover"
+                            />
                         </div>
 
                     </div>

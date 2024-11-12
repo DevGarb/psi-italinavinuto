@@ -13,13 +13,13 @@ export default function Agendamento() {
             {/* Texto principal */}
             <div>
 
-                <h1 className="font-playfair text-4xl md:text-6xl font-semibold mb-4">
+                <h1 className="font-playfair text-4xl md:text-5xl font-semibold mb-4">
                     Agende<br /> sua Consultoria <br /> hoje mesmo
                 </h1>
 
                 {/* Subtexto */}
                 <p className="text-lg md:text-xl mb-8">
-                    Comece agora a melhorar a cultura da sua empresa <br />
+                    Comece agora a melhorar a cultura da sua <br />empresa
                     e a produtividade dos seus colaboradores
                 </p>
 

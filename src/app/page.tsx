@@ -8,6 +8,7 @@ import Hero from "./hero";
 import MentalHealthSection from "./MentalHealthSection";
 import FAQSection from "./faq";
 import Agendamento from "./agendamento";
+import Avaliações from "./avaliations";
 
 
 
@@ -20,6 +21,7 @@ export default function Home() {
       <Card />
       <MentalHealthSection />
       <Agendamento />
+      <Avaliações />
       <FAQSection />
       <Footer />
     </ main>

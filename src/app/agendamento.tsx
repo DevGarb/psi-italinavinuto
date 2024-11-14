@@ -6,7 +6,7 @@ import bustoidalina from '../assets/img/bustoidalina.png'
 
 export default function Agendamento() {
     return (
-        <div className=" bg-[#241B0F] flex flex-col items-center justify-center text-center text-[#F2F2F2] px-4 bg-bottom bg-no-repeat py-20"
+        <div className=" bg-[#241B0F] flex flex-col items-center justify-center text-center text-[#F2F2F2] px-4 bg-bottom bg-no-repeat mt-4 py-12"
             style={{
                 backgroundImage: `url(${bgthree.src})`
             }}>

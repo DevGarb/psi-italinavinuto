@@ -8,20 +8,21 @@ import Hero from "./hero";
 import MentalHealthSection from "./MentalHealthSection";
 import FAQSection from "./faq";
 import Agendamento from "./agendamento";
-import Avaliações from "./avaliations";
+import Feedbacks from "./feedbacks";
+import Feedtest from "./feedtest";
 
 
 
 export default function Home() {
   return (
-    <main >
+    <main className="">
       <Hero />
       <Aboutme />
       <Atendimento />
       <Card />
       <MentalHealthSection />
+      <Feedbacks />
       <Agendamento />
-      {/* <Avaliações /> */}
       <FAQSection />
       <Footer />
     </ main>

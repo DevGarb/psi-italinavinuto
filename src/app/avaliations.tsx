@@ -1,4 +1,5 @@
 import React from "react";
+import Image from 'next/image'
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/scrollbar";
@@ -79,7 +80,7 @@ const BlogCard: React.FC<{
                 <div className="flex flex-col h-[350px] rounded-lg  items-center shadow-lg mb-10">
                     {/* Imagem */}
                     <div className="w-full h-40 mb-2">
-                        <img src={image} alt={title} className="w-full h-full object-cover" />
+                        <Image src={image} alt={title} className="w-full h-full object-cover" />
                     </div>
                     {/* Título */}
                     <div className="p-4">

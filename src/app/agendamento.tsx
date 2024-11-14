@@ -32,7 +32,10 @@ export default function Agendamento() {
                     src={bustoidalina} // Substitua pelo caminho correto da imagem
                     alt="Foto de Idalina Vinuto"
                 />
-                Fale comigo agora
+                <a href="https://wa.me/5585999173647?text=Oi,%20Agende%20agora%20sua%20consulta."
+                    target="_blank">
+                    Fale comigo agora
+                </a>
             </button>
         </div>
 

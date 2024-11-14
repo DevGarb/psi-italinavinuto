@@ -18,6 +18,9 @@ const config: Config = {
       playfair: ['"Playfair Display"', 'serif'],
     },
   },
-  plugins: [require("tailgrids/plugin")],
+  plugins: [
+    require("tailgrids/plugin"),
+    require('tailwindcss-animated')
+  ],
 };
 export default config;

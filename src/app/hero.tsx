@@ -13,7 +13,7 @@ export default function hero() {
             <div className="bg-[#241B0F]">
                 <main className="container justify-center flex flex-col pt-10">
                     <div className="flex flex-col md:flex-row-reverse">
-                        <div className='max-md:hidden max-lg:hidden min-lg:hidden'>
+                        <div className='max-md:hidden max-lg:hidden min-lg:hidden animate-fade-right animate-once animate-ease-in'>
                             <Image
                                 alt='Idalina Vinuto'
                                 src={photoidalina}

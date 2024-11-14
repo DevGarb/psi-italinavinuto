@@ -26,7 +26,7 @@ export default function Example() {
                     <div className="p-6 flex flex-col md:flex-row items-center gap-20 max-sm:gap-10 ">
 
                         {/* Texto e ícones */}
-                        <div className="flex flex-col">
+                        <div className="flex flex-col ">
                             <h1 className="text-3xl font-bold mb-4 font-playfair">
                                 Atendimento Clínico
                             </h1>
@@ -38,7 +38,10 @@ export default function Example() {
                             </p>
                             <p className="font-semibold flex items-center gap-2 text-[#945D38]">
                                 <FaWhatsapp className="text-[#945D38]" />
-                                Vamos dar o primeiro passo juntos?
+                                <a href="https://wa.me/5585999173647?text=Oi,%20Agende%20agora%20sua%20consulta."
+                                    target="_blank">
+                                    Vamos dar o primeiro passo juntos?
+                                </a>
                             </p>
                         </div>
                         {/* Imagem */}
@@ -80,7 +83,7 @@ export default function Example() {
 
                             <p className="font-semibold flex items-center gap-2 text-[#945D38]">
                                 <FaArrowDownLong className="text-[#945D38]" />
-                                Vamos dar o primeiro passo juntos?
+                                Veja abaixo como posso ajudar sua empresa.
                             </p>
                         </div>
                         <div className="flex-shrink-0 rounded-md sm:hidden">

@@ -21,7 +21,7 @@ export default function Home() {
       <Card />
       <MentalHealthSection />
       <Agendamento />
-      <Avaliações />
+      {/* <Avaliações /> */}
       <FAQSection />
       <Footer />
     </ main>

@@ -22,7 +22,7 @@ export default function Example() {
                 </p>
 
                 {/* Card de Atendimento Clínico */}
-                <div className="grid grid-cols-1 gap-8 m-10 mx-auto shadow-2xl rounded-lg overflow-hidden bg-[#F0E4DB] w-full">
+                <div className="grid grid-cols-1 gap-8 m-10 mx-auto shadow-xl rounded-lg overflow-hidden bg-[#F0E4DB] w-full">
                     <div className="p-6 flex flex-col md:flex-row items-center gap-20 max-sm:gap-10 ">
 
                         {/* Texto e ícones */}
@@ -59,7 +59,7 @@ export default function Example() {
 
             <div className="container mx-auto px-4">
                 {/* Card de Atendimento Clínico */}
-                <div className="grid grid-cols-1 gap-8 m-10 mx-auto shadow-2xl rounded-lg overflow-hidden bg-[#E2D7CF] w-full">
+                <div className="grid grid-cols-1 gap-8 m-10 mx-auto shadow-xl rounded-lg overflow-hidden bg-[#E2D7CF] w-full">
                     <div className="p-6 flex flex-col lg:flex-row items-center gap-20 max-sm:gap-10">
                         {/* Imagem */}
                         <div className="flex-shrink-0 rounded-md max-sm:hidden">

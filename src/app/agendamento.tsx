@@ -18,8 +18,8 @@ export default function Agendamento() {
                 </h1>
 
                 {/* Subtexto */}
-                <p className="text-lg md:text-xl mb-8">
-                    Comece agora a melhorar a cultura da sua <br />empresa
+                <p className="text-lg md:text-xl pb-8">
+                    Comece agora a melhorar a cultura da <br />sua empresa
                     e a produtividade dos seus colaboradores
                 </p>
 

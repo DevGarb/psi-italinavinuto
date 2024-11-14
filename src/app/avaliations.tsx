@@ -76,14 +76,14 @@ const BlogCard: React.FC<{
     return (
         <>
             <div className="container">
-                <div className="flex flex-col w-[300px] rounded-lg  items-center ">
+                <div className="flex flex-col h-[350px] rounded-lg  items-center shadow-lg mb-10">
                     {/* Imagem */}
                     <div className="w-full h-40 mb-2">
                         <img src={image} alt={title} className="w-full h-full object-cover" />
                     </div>
                     {/* Título */}
                     <div className="p-4">
-                        <h3 className="text-[22px] font-semibold text-dark mb-2">{title}</h3>
+                        <h3 className="text-base font-semibold text-dark mb-2">{title}</h3>
                         {/* Descrição */}
                         <p className="text-[14px] text-gray-600">{description}</p>
                     </div>

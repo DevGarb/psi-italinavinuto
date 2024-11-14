@@ -88,30 +88,28 @@ export default function aboutme() {
 
                 <div className="sm:hidden md:h-full flex items-center gap-6 justify-center md:justify-end flex-row-reverse">
                     <h5>
-                        <p className="font-bold">Idalina Vinuto</p>
-                        <p className="text-gray-600">CRP 11/07872</p>
+                        <p className="font-bold text-base">Idalina Vinuto</p>
+                        <p className="text-gray-600 text-xs">CRP 11/07872</p>
                     </h5>
                     <Image
                         className="rounded-lg w-auto sm:h-auto md:h-1/4 lg:h-2/5 xl:h-2/4"
-                        src={bustoidalina} // Substitua pelo caminho correto da imagem
+                        src={bustoidalina} 
                         alt="Foto de Idalina Vinuto"
                     />
                 </div>
                 <h5 className="hidden md:block items-center">
-                    <p className="font-bold">Idalina Vinuto</p>
-                    <p className="text-gray-600">CRP 11/07872</p>
+                    <p className="font-bold text-base">Idalina Vinuto</p>
+                    <p className="text-gray-600 text-xs">CRP 11/07872</p>
                 </h5>
             </div>
 
             <div className="hidden md:flex md:h-full justify-end">
                 <Image
                     className="rounded-lg w-auto sm:h-auto md:h-1/4 lg:h-2/5 xl:h-2/4"
-                    src={bustoidalina} // Substitua pelo caminho correto da imagem
+                    src={bustoidalina} 
                     alt="Foto de Idalina Vinuto"
                 />
             </div>
-
-            {/* Coluna da imagem */}
         </div>
 
     )

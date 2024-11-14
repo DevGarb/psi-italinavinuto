@@ -17,7 +17,7 @@ export default function Example() {
                     Atendimento Clínico e
                     <p>Consultoria em Saúde Mental Corporativa</p>
                 </h1>
-                <p className="text-center text-gray-500 mb-12">
+                <p className="text-center text-sm font-semibold text-[#945D38] mb-12">
                     Saiba abaixo como funciona
                 </p>
 

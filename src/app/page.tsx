@@ -23,6 +23,7 @@ export default function Home() {
       <MentalHealthSection />
       <Feedbacks />
       <Agendamento />
+      {/* <Feedtest /> */}
       <FAQSection />
       <Footer />
     </ main>

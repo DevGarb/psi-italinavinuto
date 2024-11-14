@@ -1,109 +1,69 @@
-import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/scrollbar";
-import { Scrollbar } from "swiper/modules";
+import React, { useState } from "react";
 
-// Dados dos feedbacks
-const feedbackCardsData = [
-    {
-        feedback: "Idalina é muito atenciosa com o time, escuta a todos com muito respeito e age sempre com bastante proatividade.",
-        client: "Cliente Corporativo B",
-    },
-    {
-        feedback: "Idalina é uma das profissionais de Gestão de Pessoas com maior capacidade de execução que já conheci.",
-        client: "Cliente Corporativo S",
-    },
-    {
-        feedback: "O acompanhamento psicológico com a Idalina vem sendo muito positivo para mim.",
-        client: "Cliente Clínica I",
-    },
-    {
-        feedback: "O atendimento da Idalina realmente me mudou, mudou a forma através da qual eu vejo as minhas questões.",
-        client: "Cliente Clínica S",
-    },
-    {
-        feedback: "Gostaria de expressar minha gratidão pelo atendimento que recebi da Idalina durante um momento difícil.",
-        client: "Cliente Clínica B",
-    },
-    {
-        feedback: "Profissional dinâmica e realizadora, sempre comprometida com o seu trabalho.",
-        client: "Cliente Corporativo V",
-    },
-    {
-        feedback: "O atendimento da Idalina realmente me mudou, mudou a forma através da qual eu vejo as minhas questões.",
-        client: "Cliente Clínica S",
-    },
-    {
-        feedback: "Gostaria de expressar minha gratidão pelo atendimento que recebi da Idalina durante um momento difícil.",
-        client: "Cliente Clínica B",
-    },
+const NewsCarousel: React.FC = () => {
+    const [translateX, setTranslateX] = useState(0);
 
-];
+    const handleSlide = (direction: "left" | "right") => {
+        const containerWidth = 300; // Largura de cada card (ajuste conforme necessário)
+        const maxTranslate = -containerWidth * (8 - 1); // Quantidade máxima de deslocamento (4 cards)
 
-const Avaliations = () => {
+        if (direction === "left") {
+            setTranslateX((prev) => Math.min(prev + containerWidth, 0)); // Evita deslizar além do início
+        } else {
+            setTranslateX((prev) => Math.max(prev - containerWidth, maxTranslate)); // Evita deslizar além do final
+        }
+    };
+
     return (
-        <div className="flex flex-col items-center gap-6">
-
-                {/* Linha superior: 3 primeiros feedbacks */}
-                <Swiper
-                    scrollbar={{
-                        hide: false,
-                    }}
-                    modules={[Scrollbar]}
-                    className="mySwiper"
-                    breakpoints={{
-                        0: {
-                            slidesPerView: 1,
-                        },
-                        768: {
-                            slidesPerView: 3,
-                        },
-                    }}
+        <div className="container mx-auto px-4">
+            <div className="relative mb-20 flex">
+                <h2 className="text-2xl font-bold mb-4">Últimas notícias</h2>
+                {/* Botões de navegação */}
+                <button
+                    className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-blue-500 text-white p-2 rounded-full shadow-md"
+                    onClick={() => handleSlide("left")}
                 >
-                    {feedbackCardsData.slice(0, 4).map((feedback, index) => (
-                        <SwiperSlide key={index}>
-                            <FeedbackCard
-                                feedback={feedback.feedback}
-                                client={feedback.client}
-                            />
-                        </SwiperSlide>
-                    ))}
-                </Swiper>
-
-                {/* Linha inferior: 3 últimos feedbacks */}
-                <Swiper
-                    scrollbar={{
-                        hide: false,
-                    }}
-                    modules={[Scrollbar]}
-                    className="mySwiper"
-
+                    &#8592;
+                </button>
+                <button
+                    className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-blue-500 text-white p-2 rounded-full shadow-md"
+                    onClick={() => handleSlide("right")}
                 >
-                    {feedbackCardsData.slice(4, 8).map((feedback, index) => (
-                        <SwiperSlide key={index}>
-                            <FeedbackCard
-                                feedback={feedback.feedback}
-                                client={feedback.client}
-                            />
-                        </SwiperSlide>
+                    &#8594;
+                </button>
+
+            </div>
+            {/* Cards deslizáveis */}
+            <div className="overflow-hidden my-12">
+                <div
+                    className="flex transition-transform duration-300"
+                    style={{ transform: `translateX(${translateX}px)` }}
+                >
+                    {[
+                        { logo: "Veja", text: "Plataforma inédita monitora transformação digital nos serviços públicos" },
+                        { logo: "InfoMoney", text: "Com novo CEO, Valid quer reforçar presença no mercado de chips virtuais" },
+                        { logo: "Valor", text: "Saiba quais locais se destacam no ranking de competitividade em gestão pública" },
+                        { logo: "Exame", text: "Como o poder público brasileiro pode governar de forma mais inteligente" },
+                        { logo: "Veja", text: "Plataforma inédita monitora transformação digital nos serviços públicos" },
+                        { logo: "InfoMoney", text: "Com novo CEO, Valid quer reforçar presença no mercado de chips virtuais" },
+                        { logo: "Valor", text: "Saiba quais locais se destacam no ranking de competitividade em gestão pública" },
+                        { logo: "Exame", text: "Como o poder público brasileiro pode governar de forma mais inteligente" },
+                    ].map((news, index) => (
+                        <div
+                            key={index}
+                            className="min-w-[300px] max-w-[300px] bg-gray-100 border rounded-lg p-4 mx-2"
+                        >
+                            <div className="text-center text-xl font-bold mb-2">{news.logo}</div>
+                            <p className="text-sm text-gray-700">{news.text}</p>
+                            <a href="#" className="text-blue-500 text-sm mt-2 block">
+                                saiba mais &rarr;
+                            </a>
+                        </div>
                     ))}
-                </Swiper>
+                </div>
+            </div>
         </div>
     );
 };
 
-export default Avaliations;
-
-// Componente FeedbackCard
-const FeedbackCard: React.FC<{
-    feedback: string;
-    client: string;
-}> = ({ feedback, client }) => {
-    return (
-        <div className="flex flex-col bg-white shadow-md rounded-lg p-6 w-[300px] h-[250px]">
-            <p className="text-gray-700 text-sm mb-4">{feedback}</p>
-            <span className="text-sm font-semibold text-primary mt-auto">{client}</span>
-        </div>
-    );
-};
+export default NewsCarousel;

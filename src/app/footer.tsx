@@ -11,7 +11,11 @@ export default function footer() {
                     </h1>
                 </div>
                 <div className="border-t border-gray-500 pt-4 text-2xl tracking-wider">
-                    <h1 className="font-bold">LinkedIn</h1>
+                    <h1 className="font-bold">
+                        <a href="https://www.linkedin.com/in/idalina-vinuto-a3009856">
+                            LinkedIn
+                        </a>
+                    </h1>
                 </div>
                 <div className="border-t border-gray-500 pt-4 text-2xl tracking-wider">
                     <h1 className="font-bold">
@@ -25,7 +29,7 @@ export default function footer() {
             <div className="container mt-28 flex flex-col md:flex-row text-center justify-between  text-sm text-gray-400">
                 <span>Direitos Reservados © 2024</span>
                 <span>Desenvolvido por
-                    <a href='https://www.instagram.com/nildodiasdesign' target='blank' className='mx-2 underline tracking-widest'>
+                    <a href='https://www.linkedin.com/in/nildodias/' target='blank' className='mx-2 underline tracking-widest'>
                         Nildo Dias
                     </a>
                     &

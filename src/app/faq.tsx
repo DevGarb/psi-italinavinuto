@@ -49,8 +49,8 @@ const FAQSection: React.FC = () => {
             <div className="max-xl:container py-12 max-w-5xl mx-auto flex flex-col md:flex-row gap-12 ">
                 {/* Título e Subtítulo */}
                 <div className="flex flex-col max-sm:text-center basis-1/2">
-                    <p className="font-playfair text-4xl font-semibold mb-4 text-base-content">Dúvidas Frequentes</p>
-                    <p className="inline-block font-semibold text-[#B29480] ">Clique na pergunta para tirar sua dúvida.</p>
+                    <p className="font-playfair text-3xl font-semibold mb-4 text-base-content">Dúvidas Frequentes</p>
+                    <p className="inline-block font-semibold text-[#B29480] text-base">Clique na pergunta para tirar sua dúvida.</p>
                 </div>
 
                 {/* FAQ List */}

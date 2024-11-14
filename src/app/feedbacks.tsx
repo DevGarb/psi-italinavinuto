@@ -61,10 +61,10 @@ export default function Feedbacks() {
         <section className='container'>
             <div className='py-12 max-sm:text-center'>
                 <div className='flex flex-col'>
-                    <span className='text-4xl font-playfair font-semibold tracking-wide mb-4'>
+                    <span className='text-3xl font-playfair font-semibold tracking-wide mb-4'>
                         Confira o que nossos <br /> clientes tem a dizer
                     </span>
-                    <span className='text-lg text-[#945D38] font-semibold max-sm:text-center'>
+                    <span className='text-base text-[#945D38] font-semibold max-sm:text-center'>
                         Depoimentos de clientes reais
                     </span>
                 </div>

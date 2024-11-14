@@ -76,9 +76,9 @@ const BlogCard: React.FC<{
     return (
         <>
             <div className="container">
-                <div className="flex flex-col w-[300px] h-[390px] rounded-lg  items-center max-sm:mb-8">
+                <div className="flex flex-col w-[300px] rounded-lg  items-center ">
                     {/* Imagem */}
-                    <div className="w-full h-40 mb-4">
+                    <div className="w-full h-40 mb-2">
                         <img src={image} alt={title} className="w-full h-full object-cover" />
                     </div>
                     {/* Título */}

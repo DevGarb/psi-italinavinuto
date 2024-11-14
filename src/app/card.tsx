@@ -11,10 +11,10 @@ const Blog = () => {
                 <div className="flex flex-wrap sm:ml-2">
                     <div className="px-2">
                         <div className="mx-auto  max-w-[710px] mb-12">
-                            <p className="max-sm:hidden mb-4 text-4xl font-bold font-playfair text-dark max-sm:text-center">
+                            <p className="max-sm:hidden mb-4 text-3xl font-bold font-playfair text-dark max-sm:text-center">
                                 Soluções estratégicas que <br />entregamos para sua empresa
                             </p>
-                            <p className=" sm:hidden mb-4 text-4xl font-bold font-playfair text-dark max-sm:text-center">
+                            <p className=" sm:hidden mb-4 text-3xl font-bold font-playfair text-dark max-sm:text-center">
                                 Soluções estratégicas que entregamos <br />para sua empresa
                             </p>
                             <p className=" font-semibold text-[#945D38] max-sm:text-center">

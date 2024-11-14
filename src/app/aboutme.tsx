@@ -12,13 +12,13 @@ import { IoPersonSharp } from 'react-icons/io5';
 export default function aboutme() {
     return (
         <div className="container mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-3 md:grid-rows-1 gap-8 items-center">
-            <h1 className="max-sm:hidden font-playfair text-4xl col-span-1 md:col-span-3 justify-center flex text-center sm:mb-8">
+            <h1 className="max-sm:hidden font-playfair text-3xl col-span-1 md:col-span-3 justify-center flex text-center sm:mb-8">
                 <span>
                     Olá, sou <span className="font-bold">Idalina Vinuto </span>e conto
                     <br />abaixo um pouco da minha trajetória
                 </span>
             </h1>
-            <h1 className="sm:hidden font-playfair text-4xl col-span-1 md:col-span-3 justify-center flex text-center sm:mb-8">
+            <h1 className="sm:hidden font-playfair text-3xl col-span-1 md:col-span-3 justify-center flex text-center sm:mb-8">
                 <span>
                     Olá, sou <span className="font-bold">Idalina Vinuto </span>e conto
                     abaixo um pouco da minha trajetória

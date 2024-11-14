@@ -9,8 +9,8 @@ import { BsBagPlus } from 'react-icons/bs';
 
 const MentalHealthSection: React.FC = () => {
   return (
-    <section className='sm:bg-[#F2F2F2]'>
-      <div className="container grid grid-cols-1 md:grid-cols-2 grid-rows-1 gap-8 py-12 md:bg-[#F2F2F2] bg-white">
+    <section className='bg-[#F2F2F2]'>
+      <div className="container grid grid-cols-1 md:grid-cols-2 grid-rows-1 gap-8 py-12 bg-[#F2F2F2]">
         <div className="col-span-2">
           <div className='mb-10 col-span-1'>
             <p className="max-sm:hidden font-playfair text-4xl font-semibold text-gray-900 mb-4 max-sm:text-center">
@@ -19,7 +19,7 @@ const MentalHealthSection: React.FC = () => {
             <p className="sm:hidden font-playfair text-3xl font-semibold text-gray-900  max-sm:text-center mb-4">
               Como promovemos <br />uma melhora da saúde mental no trabalho
             </p>
-            <p className="text-lg text-[#945D38] font-semibold max-sm:text-center">
+            <p className="text-base text-[#945D38] font-semibold max-sm:text-center">
               Transformando o dia a dia da empresa
             </p>
           </div>
@@ -32,7 +32,7 @@ const MentalHealthSection: React.FC = () => {
           </div>
           <div className='flex'>
             <div className='flex-col flex max-sm:justify-between'>
-              <div className="bg-white max-sm:bg-[#F2F2F2] p-7 rounded-lg flex items-center mb-6">
+              <div className="bg-white p-7 rounded-lg flex items-center mb-6">
                 <div className="text-[#945D38]">
                   <svg
                     className='w-10 h-auto text-[#945D38]'
@@ -50,7 +50,7 @@ const MentalHealthSection: React.FC = () => {
                   </p>
                 </div>
               </div>
-              <div className="bg-white max-sm:bg-[#F2F2F2] p-7 rounded-lg flex items-center">
+              <div className="bg-white p-7 rounded-lg flex items-center">
                 <div className="text-[#945D38]">
                   <svg
                     className='w-10 h-auto text-[#945D38]'

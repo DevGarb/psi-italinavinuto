@@ -19,7 +19,7 @@ export default function footer() {
                 </div>
                 <div className="border-t border-gray-500 pt-4 text-2xl tracking-wider">
                     <h1 className="font-bold">
-                        <a href="https://wa.me/5585999173647?text=Oi,%20Agende%20agora%20sua%20consulta."
+                        <a href="https://wa.me/5585999173647?text=Oi,%20Gostaria%20de%20agendar%20uma%20consulta?"
                             target="_blank">
                             WhatsApp
                         </a>

@@ -58,7 +58,7 @@ export default function hero() {
 
                             <div className="sm:py-8 pb-10">
                                 <a
-                                    href="https://wa.me/5585999173647?text=Oi,%20Agende%20agora%20sua%20consulta."
+                                    href="https://wa.me/5585999173647?text=Oi,%20Gostaria%20de%20agendar%20uma%20consulta?"
                                     target="_blank"
                                     className="text-black bg-[#F1CA52] rounded-lg px-5 py-2.5 text-center inline-flex items-center justify-between transition duration-300 hover:scale-110 w-full sm:w-72 text-md font-bold"
                                 >

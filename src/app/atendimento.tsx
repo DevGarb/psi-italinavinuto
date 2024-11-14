@@ -38,7 +38,8 @@ export default function Example() {
                             </p>
                             <p className="font-semibold flex items-center gap-2 text-[#945D38]">
                                 <FaWhatsapp className="text-[#945D38]" />
-                                <a href="https://wa.me/5585999173647?text=Oi,%20Agende%20agora%20sua%20consulta."
+                                <a href="https://wa.me/5585999173647?text=Oi,%20Gostaria%20de%20agendar%20uma%20consulta?"
+
                                     target="_blank">
                                     Vamos dar o primeiro passo juntos?
                                 </a>

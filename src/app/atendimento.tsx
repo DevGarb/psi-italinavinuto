@@ -3,9 +3,9 @@ import { FC } from 'react';
 import { FaHeart, FaClipboardList, FaWhatsapp } from 'react-icons/fa';
 import "@fontsource/playfair-display"
 
-import Consultorio from '../assets/img/maoqueixo.png'
-import Grupo from '../assets/img/grupo.png'
-import IdalinaMic from '../assets/img/idalinamic1.png'
+import Consultorio from '../../public/img/maoqueixo.png'
+import Grupo from '../../public/img/grupo.png'
+import IdalinaMic from '../../public/img/idalinamic1.png'
 import { FaArrowDownLong } from 'react-icons/fa6';
 
 export default function Example() {
@@ -13,7 +13,7 @@ export default function Example() {
         <div className="bg-[#F9F6F1] py-12">
             <div className="container mx-auto px-4">
                 {/* Título da seção */}
-                <h1 className="font-playfair text-3xl md:text-4xl text-center font-bold mb-4">
+                <h1 className="font-playfair text-3xl text-center font-bold mb-4">
                     Atendimento Clínico e
                     <p>Consultoria em Saúde Mental Corporativa</p>
                 </h1>

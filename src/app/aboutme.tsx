@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image'
 import "@fontsource/playfair-display"
 
-import bustoidalina from '../assets/img/bustoidalina.png'
+import bustoidalina from '../../public/img/bustoidalina.png'
 import path from 'path';
 import { BsPeopleFill } from 'react-icons/bs';
 import { IoPersonSharp } from 'react-icons/io5';
@@ -92,7 +92,7 @@ export default function aboutme() {
                         <p className="text-gray-600 text-xs">CRP 11/07872</p>
                     </h5>
                     <Image
-                        className="rounded-lg w-auto sm:h-auto md:h-1/4 lg:h-2/5 xl:h-2/4"
+                        className="rounded-lg  sm:h-auto md:h-1/4 lg:h-2/5 xl:h-2/4 w-28 h-auto"
                         src={bustoidalina} 
                         alt="Foto de Idalina Vinuto"
                     />
@@ -108,6 +108,7 @@ export default function aboutme() {
                     className="rounded-lg w-auto sm:h-auto md:h-1/4 lg:h-2/5 xl:h-2/4"
                     src={bustoidalina} 
                     alt="Foto de Idalina Vinuto"
+                    
                 />
             </div>
         </div>

@@ -24,6 +24,12 @@ const feedbackCardsData = [
         color: "bg-gray-200",
     },
     {
+        feedback: "Gostaria de expressar minha profunda gratidão pelo apoio que recebi da Idalina  durante um dos momentos mais difíceis da minha vida. Enfrentar um burnout em um ambiente de trabalho com uma cultura tóxica foi devastador para mim, tanto física quanto emocionalmente.",
+        feedbacksub: "No entanto, com sua orientação, consegui entender melhor os sinais que meu corpo e minha mente estavam enviando, além de desenvolver ferramentas para lidar com o estresse e recuperar minha saúde mental.",
+        client: "Cliente Corporativo V",
+        color: "bg-green-200",
+    },
+    {
         feedback: "Tenho o prazer de recomendar Idalina, uma profissional incrível, que realmente faz a diferença onde atua.",
         feedbacksub: "Ela é extremamente comprometida e sempre focada em entregar resultados concretos. Mas o que mais me chama atenção é o seu senso de responsabilidade e a confiança que transmite. Fico tranquila em indicá-la porque sei que ela sempre entrega o melhor. ",
         client: "Cliente Clínica I",
@@ -41,12 +47,7 @@ const feedbackCardsData = [
         client: "Cliente Clínica B",
         color: "bg-blue-200",
     },
-    {
-        feedback: "Gostaria de expressar minha profunda gratidão pelo apoio que recebi da Idalina  durante um dos momentos mais difíceis da minha vida. Enfrentar um burnout em um ambiente de trabalho com uma cultura tóxica foi devastador para mim, tanto física quanto emocionalmente.",
-        feedbacksub: "No entanto, com sua orientação, consegui entender melhor os sinais que meu corpo e minha mente estavam enviando, além de desenvolver ferramentas para lidar com o estresse e recuperar minha saúde mental.",
-        client: "Cliente Corporativa V",
-        color: "bg-green-200",
-    },
+   
     {
         feedback: "Se você busca acolhimento e resultados no cuidado com a sua saúde mental, recomendo de coração o atendimento da Idalina.",
         feedbacksub: "Com uma abordagem humanizada e focada em você, ela faz toda a diferença!",

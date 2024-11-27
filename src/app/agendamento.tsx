@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image'
-import bgthree from '../assets/img/bgthree.png'
-import bustoidalina from '../assets/img/bustoidalina.png'
+import bgthree from '../../public/img/bgthree.png'
+import bustoidalina from '../../public/img/bustoidalina.png'
 
 
 export default function Agendamento() {
@@ -13,8 +13,8 @@ export default function Agendamento() {
             {/* Texto principal */}
             <div>
 
-                <h1 className="font-playfair text-4xl md:text-5xl font-semibold mb-4">
-                    Agende<br /> sua Consultoria <br /> hoje mesmo
+                <h1 className="font-playfair text-5xl  font-semibold mb-4">
+                    Agende sua <br /> Consultoria <br /> hoje mesmo
                 </h1>
 
                 {/* Subtexto */}

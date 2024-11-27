@@ -1,10 +1,10 @@
 import React from 'react';
 import Image from 'next/image'
 
-import logoidalina from '../assets/img/logoidalina.png';
-import photoidalina from '../assets/img/photoidalina.png';
+import logoidalina from '../../public/img/logoidalina.png';
+import photoidalina from '../../public/img/photoidalina.png';
 import backgroundphoto from '../assets/img/backgroundphoto.png';
-import Vector from '../assets/img/Vector.png';
+import Vector from '../../public/img/Vector.png';
 
 
 export default function hero() {
@@ -17,7 +17,7 @@ export default function hero() {
                             <Image
                                 alt='Idalina Vinuto'
                                 src={photoidalina}
-                                className='mt-20' />
+                                className='mt-32' />
                         </div>
                         <div className="flex-1">
                             <div className='flex max-sm:justify-center'>
@@ -30,18 +30,18 @@ export default function hero() {
                             </div>
                             <div className='max-sm:text-center'>
                                 <div className='max-sm:hidden'>
-                                    <p className="text-white font-playfair font-bold text-4xl max-sm:text-3xl">
+                                    <p className="text-white font-playfair font-bold text-3xl">
                                         Ensino pessoas e negócios a construir uma jornada com
                                     </p>
-                                    <p className="text-[#F1CA52] font-playfair font-bold text-4xl max-sm:text-3xl">
+                                    <p className="text-[#F1CA52] font-playfair font-bold text-3xl">
                                         mais saúde mental e bem-estar
                                     </p>
                                 </div>
                                 <div className='sm:hidden'>
-                                    <p className=" text-white font-playfair font-bold text-4xl max-sm:text-3xl">
+                                    <p className=" text-white font-playfair font-bold text-3xl">
                                         Ensino pessoas e negócios a construir uma jornada
                                     </p>
-                                    <p className="text-[#F1CA52] font-playfair font-bold text-4xl max-sm:text-3xl">
+                                    <p className="text-[#F1CA52] font-playfair font-bold text-3xl">
                                         com mais saúde mental e bem-estar
                                     </p>
                                 </div>

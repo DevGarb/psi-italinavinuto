@@ -79,8 +79,8 @@ const BlogCard: React.FC<{
             <div className="container">
                 <div className="flex flex-col h-[350px] rounded-lg  items-center shadow-lg mb-10">
                     {/* Imagem */}
-                    <div className="w-full h-40 mb-2">
-                        <Image src={image} alt={title} className="w-full h-full object-cover" />
+                    <div className="w-full h-40">
+                        <Image src={image} width={30} height={30} alt={title} className="w-full h-full object-cover" />
                     </div>
                     {/* Título */}
                     <div className="p-4">

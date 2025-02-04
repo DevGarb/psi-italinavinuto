@@ -9,23 +9,23 @@ import { Scrollbar } from "swiper/modules";
 const blogCardsData = [
     {
         image: "https://i.ibb.co/xHxZpWY/Group-5.png",
-        title: "Palestras",
-        description: "Educamos sua empresa sobre Saúde Mental abordando temas relevantes para o seu negócio.",
+        title: "Palestras, Treinamento e Workshop",
+        description: "Capacitamos empresas e líderes a cultivar uma cultura de apoio, empatia e bem-estar, promovendo um ambiente de trabalho saudável para o time.",
     },
     {
         image: "https://i.ibb.co/XVZkBsD/Group-6.png",
-        title: "Treinamento e Workshop de Liderança e Gestão",
-        description: "Capacitamos líderes que facilitem a saúde mental promovendo uma cultura de apoio, empatia e bem-estar.",
+        title: "Plantão Psicológico",
+        description: "Oferecemos plantão psicológico com acolhimento, garantindo suporte emocional e bem-estar para a sua empresa.",
     },
     {
         image: "https://i.ibb.co/cwT2n5j/Group-7.png",
         title: "Desenvolvimento de Programas de Bem-Estar",
-        description: "Criamos programas para equilibrar vida profissional e pessoal, com políticas alinhadas à NR1 e ao Certificado de Empresa Promotora de Saúde Mental.",
+        description: "Criamos programas para equilibrar vida profissional e pessoal com políticas alinhadas a NR1 (Riscos Psicossociais) e ao Certificado de Empresa Promotora de Saúde Mental (Lei 14/831)"
     },
     {
         image: "https://i.ibb.co/dGQ0YPm/Group-8.png",
         title: "Mentoria para profissionais",
-        description: "Desenvolvimento profissional com foco em competências comportamentais cruciais em suas carreiras.",
+        description: "Desenvolvimento profissional com foco em aprimorar soft skills essenciais ao sucesso da sua carreira.",
     },
 ];
 

@@ -66,7 +66,7 @@ const MentalHealthSection: React.FC = () => {
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900">Gestão de Apoio</h3>
                   <p className="text-gray-700">
-                    Gestores têm o papel fundamental de promover uma cultura de apoio e compreensão, onde os colaboradores possam se sentir à vontade para buscar ajuda.
+                    Capacitamos gestores para promover uma cultura de apoio e compreensão, onde os colaboradores sintam-se seguros e encorajados a buscar ajuda.
                   </p>
                 </div>
               </div>

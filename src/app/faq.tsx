@@ -33,12 +33,20 @@ const FAQSection: React.FC = () => {
             answer: 'A depressão pode fazer você se sentir como se estivesse preso em um túnel escuro, mas a Terapia Cognitiva Comportamental (TCC) oferece ferramentas para encontrar a luz. Na TCC, entendemos que a depressão é frequentemente alimentada por padrões de pensamento negativos identificando crenças como “nunca vou melhorar” ou “sou um fracasso”, e vamos desafiá-las. A TCC ajuda a reformular esses pensamentos, promovendo uma visão mais realista e positiva de si mesmo e do mundo ao seu redor'
         },
         {
-            question: 'Enfrentando o TEPT com a TCC',
-            answer: 'O Transtorno de Estresse Pós-Traumático (TEPT) pode fazer você se sentir refém de suas memórias, mas a Terapia Cognitiva Comportamental (TCC) oferece estratégias para retomar o controle. Na TCC, reconhecemos que o TEPT é muitas vezes mantido por pensamentos intrusivos e memórias dolorosas que podem parecer incontroláveis. Juntos, vamos identificar e compreender esses pensamentos e memórias, trabalhando para mudar a relação que você tem com eles.'
-        },
-        {
             question: 'Compreenda o Burnout com a TCC',
             answer: 'Você já se sentiu como uma bateria que nunca carrega completamente? Isso pode ser burnout! Mas não se preocupe, a Terapia Cognitivo-Comportamental (TCC) pode ser a chave para recarregar suas energias. A TCC ajuda a identificar e mudar padrões de pensamento negativos, promovendo uma visão mais equilibrada e saudável da vida. Imagine recuperar sua energia e motivação, aprendendo a lidar melhor com o estresse e a pressão do dia a dia. Não deixe o burnout controlar sua vida. Você merece se sentir pleno e feliz. Vamos juntos nessa jornada de recuperação e bem-estar!'
+        },
+        {
+            question:'Saúde Mental Corporativa: A Chave para o Sucesso Empresarial!',
+            answer:'No ambiente corporativo dinâmico de hoje, a saúde mental dos colaboradores é um pilar fundamental para o sucesso e a produtividade da empresa. Reconhecer e abordar os riscos psicossociais, como estresse excessivo, ambiente de trabalho hostil, falta de equilíbrio entre vida pessoal e profissional e insegurança no emprego, é essencial para criar um ambiente de trabalho saudável e seguro. Investir na saúde mental dos colaboradores traz inúmeros benefícios, incluindo maior produtividade, redução do absenteísmo, melhoria do clima organizacional e retenção de talentos. Vamos juntos construir um ambiente de trabalho mais saudável e próspero!'
+        },
+        {
+            question:'Mapeamento de Riscos Psicossociais e Regularização de Acordo com a NR1!',
+            answer: 'A partir de 24 de maio de 2025, as empresas precisam estar em conformidade com a NR1 para garantir um ambiente de trabalho saudável e seguro. Isso inclui mapear riscos psicossociais como estresse excessivo, ambiente de trabalho hostil, falta de equilíbrio entre vida pessoal e profissional e insegurança no emprego. Para estar em conformidade, as empresas devem identificar riscos, implementar medidas de controle, capacitar colaboradores e monitorar a eficácia das ações.🚀✨'
+        },
+        {
+            question:'Como Diferenciar os Fatores Psicossociais e os Riscos Psicossociais?',
+            answer: 'No ambiente de trabalho, entender a diferença entre fatores psicossociais e riscos psicossociais é essencial para promover a saúde mental dos colaboradores e criar um ambiente mais saudável e seguro. Fatores psicossociais são aspectos do ambiente de trabalho que podem influenciar a saúde mental, como carga de trabalho, autonomia, suporte social, reconhecimento e equilíbrio entre vida pessoal e profissional. Riscos psicossociais, por sua vez, são fatores mal gerenciados que prejudicam a saúde mental, como estresse excessivo, ambiente de trabalho hostil, falta de equilíbrio entre vida pessoal e profissional e insegurança no emprego. 🚀✨'
         },
 
     ];
@@ -79,7 +87,7 @@ const FAQSection: React.FC = () => {
                                 className={`transition-all duration-300 ease-in-out overflow-hidden ${expandedIndex === index ? 'max-h-screen' : 'max-h-0'}`}
                                 style={{ transition: 'max-height 0.3s ease-in-out' }}
                             >
-                                <div className="p-4 bg-[#F5EFE8] text-black">
+                                <div className="p-4 bg-[#F5EFE8] text-black text-justify">
                                     <p>{faq.answer}</p>
                                 </div>
                             </div>

@@ -24,30 +24,30 @@ const feedbackCardsData = [
         color: "bg-gray-200",
     },
     {
-        feedback: "Gostaria de expressar minha profunda gratidão pelo apoio que recebi da Idalina  durante um dos momentos mais difíceis da minha vida. Enfrentar um burnout em um ambiente de trabalho com uma cultura tóxica foi devastador para mim, tanto física quanto emocionalmente.",
-        feedbacksub: "No entanto, com sua orientação, consegui entender melhor os sinais que meu corpo e minha mente estavam enviando, além de desenvolver ferramentas para lidar com o estresse e recuperar minha saúde mental.",
+        feedback: "Tenho o prazer de recomendar Idalina, uma profissional incrível, que realmente faz a diferença onde atua.",
+        feedbacksub: "Ela é extremamente comprometida e sempre focada em entregar resultados concretos. Mas o que mais me chama atenção é o seu senso de responsabilidade e a confiança que transmite. Fico tranquila em indicá-la porque sei que ela sempre entrega o melhor. ",
+        
         client: "Cliente Corporativo V",
         color: "bg-green-200",
     },
     {
-        feedback: "Tenho o prazer de recomendar Idalina, uma profissional incrível, que realmente faz a diferença onde atua.",
-        feedbacksub: "Ela é extremamente comprometida e sempre focada em entregar resultados concretos. Mas o que mais me chama atenção é o seu senso de responsabilidade e a confiança que transmite. Fico tranquila em indicá-la porque sei que ela sempre entrega o melhor. ",
-        client: "Cliente Clínica I",
-        color: "bg-yellow-200",
-    },
-    {
         feedback: "O acompanhamento psicológico com a Idalina vem sendo muito positivo para mim",
         feedbacksub: "Nesse processo estou aprendendo a lidar com algumas situações que antes eram difíceis para mim e vem contribuindo para que eu me liberte de algumas crenças desnecessárias.",
-        client: "Cliente Clínica S",
+        client: "Cliente Clínica I",
         color: "bg-green-200",
     },
     {
         feedback: "O atendimento da Idalina realmente me mudou, mudou a forma através da qual eu vejo as minhas questões e é, através dessa orientação psicológica, que eu venho aprendendo a substituir a raiva, o choro, o desespero, a tristeza, etc; pelo entendimento, pela reflexão, pelas atitudes mais assertivas. ",
         feedbacksub: "",
-        client: "Cliente Clínica B",
+        client: "Cliente Clínica S",
         color: "bg-blue-200",
     },
-   
+    {
+        feedback: "Gostaria de expressar minha profunda gratidão pelo apoio que recebi da Idalina  durante um dos momentos mais difíceis da minha vida. Enfrentar um burnout em um ambiente de trabalho com uma cultura tóxica foi devastador para mim, tanto física quanto emocionalmente.",
+        feedbacksub: "No entanto, com sua orientação, consegui entender melhor os sinais que meu corpo e minha mente estavam enviando, além de desenvolver ferramentas para lidar com o estresse e recuperar minha saúde mental.",
+        client: "Cliente Clínica B",
+        color: "bg-yellow-200",
+    },
     {
         feedback: "Se você busca acolhimento e resultados no cuidado com a sua saúde mental, recomendo de coração o atendimento da Idalina.",
         feedbacksub: "Com uma abordagem humanizada e focada em você, ela faz toda a diferença!",

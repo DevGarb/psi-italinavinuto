@@ -6,6 +6,7 @@ import bustoidalina from '../../public/img/bustoidalina.png'
 import path from 'path';
 import { BsPeopleFill } from 'react-icons/bs';
 import { IoPersonSharp } from 'react-icons/io5';
+import { RiMentalHealthFill } from "react-icons/ri";
 
 
 
@@ -30,21 +31,23 @@ export default function aboutme() {
                 <div className="max-sm:hidden flex items-center justify-center space-x-3">
                     <div className="bg-gray-100  rounded flex items-center justify-center">
                         {/* Ícone */}
-                        <IoPersonSharp className="w-9 m-2.5 h-auto text-[#945D38]" />
+                        {/* <IoPersonSharp className="w-9 m-2.5 h-auto text-[#945D38]" /> */}
+                        <RiMentalHealthFill className="w-9 m-2.5 h-auto text-[#945D38]" />
                     </div>
                     <div>
-                        <p className="text-3xl font-bold">6 anos</p>
-                        <p className="text-[#999999]">de Experiência Clínica</p>
+                        <p className="text-3xl font-bold">12 anos</p>
+                        <p className="text-[#999999]">Psicologia</p>
                     </div>
                 </div>
-                {/* Ícone de Experiência Clínica MOBILE */}
+                {/* Ícone Psicologia MOBILE */}
                 <div className="md:hidden flex-row flex items-center justify-center space-x-3">
                     <div className="bg-gray-100 rounded ">
                         {/* Ícone */}
-                        <IoPersonSharp className="max-sm:w-4 w-9 m-1.5 h-auto text-[#945D38]" />
+                        {/* <IoPersonSharp className="max-sm:w-4 w-9 m-1.5 h-auto text-[#945D38]" /> */}
+                        <RiMentalHealthFill className="max-sm:w-4 w-9 m-1.5 h-auto text-[#945D38]" />
                     </div>
                     <div className="text-sm font-bold">
-                        6 anos <a className="text-[#999999]">de Experiência Clínica</a>
+                        6 anos <a className="text-[#999999]">Psicologia</a>
                     </div>
                 </div>
 
@@ -55,7 +58,7 @@ export default function aboutme() {
                         <BsPeopleFill className="max-sm:w-5 w-10 m-1.5 h-auto text-[#945D38]" />
                     </div>
                     <div className="text-sm font-bold">
-                        14 anos <a className="text-[#999999]">na área de Gestão de Pessoas</a>
+                        14 anos <a className="text-[#999999]">em Gestão de Pessoas</a>
                     </div>
                 </div>
                 {/* Ícone de Gestão de Pessoas */}
@@ -66,24 +69,23 @@ export default function aboutme() {
                     </div>
                     <div>
                         <p className="text-3xl font-bold">14 anos</p>
-                        <p className="text-[#999999]">na área de Gestão de Pessoas</p>
+                        <p className="text-[#999999]">em Gestão de Pessoas</p>
                     </div>
                 </div>
             </div>
 
             {/* Coluna da descrição e informações adicionais */}
-            <div className="text-center md:text-left space-y-10 xl:min-w-[600px]">
+            <div className="text-center md:text-left space-y-10 xl:min-w-[500px]">
 
                 {/* Descrição da experiência */}
-                <p className="text-[#999999]">
-                    Sou Psicóloga formada pela Universidade de Fortaleza há 12 anos, com
-                    especialização em Terapia Cognitivo-Comportamental (TCC) pela Unichristus e
-                    MBA em Gestão Estratégica de RH pela Ibmec.
+                <p className="text-[#999999] text-justify">
+                    Sou psicóloga formada pela Universidade de Fortaleza desde 2012, com especialização em Terapia Cognitivo-Comportamental (TCC)
+                    pela Unichristus (2019) e MBA em Gestão Estratégica de Recursos Humanos pela Ibmec (2015).
                 </p>
-                <p className="text-[#999999]">Possuo 6 anos de experiência
-                    como Psicóloga Clínica em TCC e baseada em evidências, e 14 anos na Gestão
-                    de Pessoas, desenvolvimento de lideranças e criação de ambientes de trabalho
-                    saudáveis.
+                <p className="text-[#999999] text-justify">
+                    Atuo em duas áreas distintas: como Psicóloga Clínica, aplicando Terapia Cognitivo-Comportamental e práticas baseadas em evidências; 
+                    e como Consultora em Saúde Mental Corporativa, onde foco no desenvolvimento de lideranças e na criação de ambientes de trabalho saudáveis e produtivos. 
+                    Além disso, sou aluna voluntária do Laboratório Estudos do Trabalho (LET/Unifor), onde são realizadas pesquisas com objetivo em identificar
                 </p>
 
                 <div className="sm:hidden md:h-full flex items-center gap-6 justify-center md:justify-end flex-row-reverse">
@@ -93,7 +95,7 @@ export default function aboutme() {
                     </h5>
                     <Image
                         className="rounded-lg  sm:h-auto md:h-1/4 lg:h-2/5 xl:h-2/4 w-28 h-auto"
-                        src={bustoidalina} 
+                        src={bustoidalina}
                         alt="Foto de Idalina Vinuto"
                     />
                 </div>
@@ -106,9 +108,9 @@ export default function aboutme() {
             <div className="hidden md:flex md:h-full justify-end">
                 <Image
                     className="rounded-lg w-auto sm:h-auto md:h-1/4 lg:h-2/5 xl:h-2/4"
-                    src={bustoidalina} 
+                    src={bustoidalina}
                     alt="Foto de Idalina Vinuto"
-                    
+
                 />
             </div>
         </div>

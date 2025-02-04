@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image'
 
 import logoidalina from '../../public/img/logoidalina.png';
-import photoidalina from '../../public/img/photoidalina.png';
+import photoidalina_1 from '../../public/img/photoidalina_1.png';
 import backgroundphoto from '../assets/img/backgroundphoto.png';
 import Vector from '../../public/img/Vector.png';
 
@@ -16,7 +16,7 @@ export default function hero() {
                         <div className='max-md:hidden max-lg:hidden min-lg:hidden animate-fade-right animate-once animate-ease-in'>
                             <Image
                                 alt='Idalina Vinuto'
-                                src={photoidalina}
+                                src={photoidalina_1}
                                 className='mt-32' />
                         </div>
                         <div className="flex-1">
@@ -51,7 +51,7 @@ export default function hero() {
                             <div className='md:hidden pt-8'>
                                 <Image
                                     alt="Idalina Vinuto"
-                                    src={photoidalina}
+                                    src={photoidalina_1}
                                     priority={true} />
                             </div>
                             {/* IMAGEM MOBILE */}
@@ -74,7 +74,7 @@ export default function hero() {
                             </div>
 
                             <div className="flex flex-col gap-4 mb-8 text-white">
-                                {["Terapia Individual", "Terapia Cognitivo-Comportamental", "Diagnóstico Empresarial", "Metas e Indicadores"].map((item, index) => (
+                                {["Psicoterapia Cognitivo-Comportamental", "Consultoria em Saúde Mental para empresas", "Metas e Indicadores em Saúde Mental e Bem-estar"].map((item, index) => (
                                     <div key={index} className="flex items-center gap-4 max-sm:justify-center">
                                         <Image src={Vector} className="w-4 h-4" alt="" />
                                         <p>{item}</p>

@@ -85,7 +85,7 @@ export default function aboutme() {
                 <p className="text-[#999999] text-justify">
                     Atuo em duas áreas distintas: como Psicóloga Clínica, aplicando Terapia Cognitivo-Comportamental e práticas baseadas em evidências; 
                     e como Consultora em Saúde Mental Corporativa, onde foco no desenvolvimento de lideranças e na criação de ambientes de trabalho saudáveis e produtivos. 
-                    Além disso, sou aluna voluntária do Laboratório Estudos do Trabalho (LET/Unifor), onde são realizadas pesquisas com objetivo em identificar
+                    Além disso, sou aluna voluntária do Laboratório Estudos do Trabalho (LET/Unifor), onde são desenvolvidas pesquisas com o objetivo de proporcionar um ambiente de aprendizado prático acadêmico.
                 </p>
 
                 <div className="sm:hidden md:h-full flex items-center gap-6 justify-center md:justify-end flex-row-reverse">

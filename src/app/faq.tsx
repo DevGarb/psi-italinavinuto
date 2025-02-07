@@ -42,7 +42,7 @@ const FAQSection: React.FC = () => {
         },
         {
             question:'Mapeamento de Riscos Psicossociais e Regularização de Acordo com a NR1!',
-            answer: 'A partir de 24 de maio de 2025, as empresas precisam estar em conformidade com a NR1 para garantir um ambiente de trabalho saudável e seguro. Isso inclui mapear riscos psicossociais como estresse excessivo, ambiente de trabalho hostil, falta de equilíbrio entre vida pessoal e profissional e insegurança no emprego. Para estar em conformidade, as empresas devem identificar riscos, implementar medidas de controle, capacitar colaboradores e monitorar a eficácia das ações.🚀✨'
+            answer: 'A partir de 26 de maio de 2025, as empresas precisam estar em conformidade com a NR1 para garantir um ambiente de trabalho saudável e seguro. Isso inclui mapear riscos psicossociais como estresse excessivo, ambiente de trabalho hostil, falta de equilíbrio entre vida pessoal e profissional e insegurança no emprego. Para estar em conformidade, as empresas devem identificar riscos, implementar medidas de controle, capacitar colaboradores e monitorar a eficácia das ações.🚀✨'
         },
         {
             question:'Como Diferenciar os Fatores Psicossociais e os Riscos Psicossociais?',

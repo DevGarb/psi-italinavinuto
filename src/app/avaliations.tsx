@@ -8,6 +8,11 @@ import { Scrollbar } from "swiper/modules";
 // Dados dos cartões
 const blogCardsData = [
     {
+        image: "https://i.ibb.co/VWHqsXyz/Group9.png",
+        title: "Mapeamento e gerenciamento dos Riscos Psicossociais/NR1",
+        description: "Avaliação integrada dos fatores de riscos psicossociais nas empresas, unindo métricas qualitativas e quantitativas a painéis de BI para gerar insights estratégicos e atender às exigências da NR-01.",
+    },
+    {
         image: "https://i.ibb.co/xHxZpWY/Group-5.png",
         title: "Palestras, Treinamento e Workshop",
         description: "Capacitamos empresas e líderes a cultivar uma cultura de apoio, empatia e bem-estar, promovendo um ambiente de trabalho saudável para o time.",
@@ -27,11 +32,7 @@ const blogCardsData = [
         title: "Mentoria para profissionais",
         description: "Desenvolvimento profissional com foco em aprimorar soft skills essenciais ao sucesso da sua carreira.",
     },
-    {
-        image: "https://i.ibb.co/VWHqsXyz/Group9.png",
-        title: "Mapeamento e gerenciamento dos Riscos Psicossociais/NR1",
-        description: "Avaliação integrada dos fatores de riscos psicossociais nas empresas, unindo métricas qualitativas e quantitativas a painéis de BI para gerar insights estratégicos e atender às exigências da NR-01.",
-    },
+
 ];
 
 const avaliations = () => {
